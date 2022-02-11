@@ -13,3 +13,6 @@ print(Belgium.replace(',', ':'))
 
 # followed by the population of Belgium (the second field) plus the population of the capital city (the fourth field)
 # Hint: the answer should be 11183818.
+Belgium_list = Belgium.split(",")
+print(Belgium_list)
+print(int(Belgium_list[1]) + int(Belgium_list[3]))
